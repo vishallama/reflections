@@ -12,3 +12,23 @@ the git repository. From there, those files can be "committed". The staging
 area provides a finer level of control over what we wish to commit to our 
 respository. We may not want to track all files in our directory after all. 
 The staging area lets us do that.
+
+Q. How can you use the staging area to make sure you have one commit per 
+logical change?
+
+A. We can use 'git diff --staged' command to check the difference between 
+the staging area and the most recent commit, and then use the output to 
+determine if what we want to commit represents a logical change. If it 
+doesn't, then we should keep working on our files until we are sure that 
+the output of the aforesaid command represents a logical change.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. Branches could help a lot in quite a few scenarios such as:
+   (1) If there is an experimental feature we would like to test, then it 
+makes sense to create a new branch on which we can experiment, while 
+keeping the master branch untouched. 
+   (2) If there is some alternate version of the project that we need to 
+create, then we can have this version on a new branch, instead of having 
+it on the master.
+ 
