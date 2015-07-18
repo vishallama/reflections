@@ -1,0 +1,14 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+
+A. Git creates a .git subdirectory, which it uses to keep track of all 
+commits. We need it, for otherwise, Git won't be able to keep track of all 
+the changes we make to files in the directory.
+
+Q. How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+A. The staging area keeps track of all the files that we have "added" to 
+the git repository. From there, those files can be "committed". The staging 
+area provides a finer level of control over what we wish to commit to our 
+respository. We may not want to track all files in our directory after all. 
+The staging area lets us do that.
