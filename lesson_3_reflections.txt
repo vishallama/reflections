@@ -1,1 +1,9 @@
-When would you want to use a remote repository rather than keeping all your work local?
+Q. When would you want to use a remote repository rather than keeping all your work local?
+
+A. We would want to use a remote repository in the following scenarios:
+   (1) If multiple people contribute to the same repository, then it is in fact 
+even necessary to maintain a remote repository so that those people can push or 
+pull from such a repository. This also enables each of those contributors to keep 
+their work synced with those of others'.
+   (2) In the case of a local machine failure, local data corruption, and other 
+such scenarios, it doesn't make sense to keep all of one's work in a local machine. Such work could easily get lost when the aforesaid scenarios occur.
