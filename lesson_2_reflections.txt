@@ -31,4 +31,10 @@ keeping the master branch untouched.
    (2) If there is some alternate version of the project that we need to 
 create, then we can have this version on a new branch, instead of having 
 it on the master.
- 
+
+Q. How the diagrams help you visualize the branch structure?
+
+A. The diagrams provide a picture of each commit along with their parent 
+node in any particular branch. This helps us to visualize the branch 
+structure.
+
