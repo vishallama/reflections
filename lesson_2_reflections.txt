@@ -38,3 +38,17 @@ A. The diagrams provide a picture of each commit along with their parent
 node in any particular branch. This helps us to visualize the branch 
 structure.
 
+Q. What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+A. When we merge two branches together, features (code) from either of the 
+branches get merged together, depending on certain conditions. 
+
+Q. What are the pros and cons of Git's automatic merging vs. always doing 
+merges manually?
+
+A. The main advantage of automatic merging by Git is it saves a lot of time 
+and effort. Always doing merges manually is very time-consuming and an 
+error-prone task. 
+
+
