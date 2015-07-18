@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Ans. It was easy. I just had to look at the portions of the diff output that 
+showed where old lines were removed and new lines added. Comparing the old with
+the new showed me where the bug (typo) was. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Ans. Having easy access to the entire history of a file would enable me to compare 
+any two points in the history of the file and see where the differences are. This
+would help me in debugging as well as other tasks.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Ans. An obvious advantage of having versions automatically saved is that I don't
+have to worry about losing a file in case my computer freezes or reboots for 
+whatever reason. But a big disadvantage is that I no longer have finer control 
+over the saving of the different versions of the file. The advantage of manually 
+choosing when to commit in Git, say, is that I have a lot of fine control over 
+the commits. And, if I make a commit for every logical change in a file, then 
+I can keep things under control and not clutter the histories of my files. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans. Git allows saving multiple files in one commit, because oftentimes several 
+or more files are connected in some logical sense. So, changes in such a set of 
+different files might be connected. So, it makes sense to have all those changes 
+in a single commit. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+Ans. I can use 'git log' to view the history of my respository with messages and 
+commit ids. I can use these commit ids using 'git diff' to see any difference between 
+them. This is especially useful when comparing two consecutive commits to see 
+incremental changes in the history of the files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Ans. I can be confident that all my files will be saved after every commit and that
+I can revert to any of the previous commits if I find that some bug was introduced. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans. I will be using Git for just about every project I will work on from now on, 
+espeicially those ones where files will be updated often.
