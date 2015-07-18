@@ -16,4 +16,10 @@ repository, if Git is automatically allowed to sync the remote repository with
 my local one, then one could potentially lose all local changes when such a pull 
 request is allowed. Manual pulling allows one to pull commits from a remote 
 repository only when one is sure that doing so would not mess with any work done 
-locally.  
+locally.
+
+Q. Describe the differences between forks, clones, and branches. When should you use one instead of another?
+
+A. We use fork if we wish to add something to someone else's repository on GitHub 
+by working on a copy of that respository on our local machine. We use clone if we wish to work locally on our own GitHub repository. We can also clone an existing 
+local repository. We use branches if we wish to work on something that is not ready for the main branch yet.
