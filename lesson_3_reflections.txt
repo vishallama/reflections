@@ -23,3 +23,12 @@ Q. Describe the differences between forks, clones, and branches. When should you
 A. We use fork if we wish to add something to someone else's repository on GitHub 
 by working on a copy of that respository on our local machine. We use clone if we wish to work locally on our own GitHub repository. We can also clone an existing 
 local repository. We use branches if we wish to work on something that is not ready for the main branch yet.
+
+Q. What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+A. The benefit of having a copy of the last known state of the remote stored 
+locally is that if we modify our local repository and someone else 
+pushed changes to the remote during that time, then when we fetch and merge 
+conflicting local/master and remote/master branches.
+
