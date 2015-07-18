@@ -7,3 +7,13 @@ pull from such a repository. This also enables each of those contributors to kee
 their work synced with those of others'.
    (2) In the case of a local machine failure, local data corruption, and other 
 such scenarios, it doesn't make sense to keep all of one's work in a local machine. Such work could easily get lost when the aforesaid scenarios occur.
+
+Q. Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+A. In the scenario when there are multiple people contributing to a single remote 
+repository, if Git is automatically allowed to sync the remote repository with 
+my local one, then one could potentially lose all local changes when such a pull 
+request is allowed. Manual pulling allows one to pull commits from a remote 
+repository only when one is sure that doing so would not mess with any work done 
+locally.  
