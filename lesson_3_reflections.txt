@@ -32,3 +32,11 @@ locally is that if we modify our local repository and someone else
 pushed changes to the remote during that time, then when we fetch and merge 
 conflicting local/master and remote/master branches.
 
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A. If one uses Git and chooses not to use GitHub, then one can always use GitLab, 
+BitBucket, and other such Git websites for collaboration. However, if one chooses 
+not to use Git at all, then life would be a lot harder, for sure. In such a 
+situation, one would have to use something like DropBox or Google Drive to 
+collaborate. Updating would be a lot easier individually, but colloborating would 
+be a lot harder!
